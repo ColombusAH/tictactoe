@@ -1,11 +1,13 @@
-import { Player } from './entities/player.entity';
+import { Player } from './entities/player.entity.js';
 import { Sign, someType } from './types/sign.type';
 
 
-document.addEventListener('DOMContentLoaded', () => {
+const init = document.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded');
 
     const p1 = new Player('misho', 'X');
     const p2 = new Player('mishA', 'O');
 
 }); 
+
+export default init;

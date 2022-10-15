@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd src && tsc --project ../tsconfig.json",
-    "serve": ""
+    "build": "tsc --project ../tsconfig.json",
+    "serve": "tsc -w",
+    "start": "npm run build && npm run serve"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.0"
   }
 }
