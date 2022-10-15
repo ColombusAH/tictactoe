@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --project ../tsconfig.json",
+    "build:linux": "tsc --project ../tsconfig.json",
+    "build": "tsc --project ./tsconfig.json",
     "serve": "tsc -w",
-    "start": "npm run build && npm run serve"
+    "start": "npm run build && npm run serve",
+    "start:linux": "npm run build:linux && npm run serve"
   },
   "keywords": [],
   "author": "",
