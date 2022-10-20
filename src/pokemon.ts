@@ -23,4 +23,6 @@ export abstract class Pokemon {
         this._live = live;
         this._attack = attack;
     }
+
+    abstract attackPokemon(other: Pokemon): void;
 }
