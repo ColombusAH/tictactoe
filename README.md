@@ -26,3 +26,6 @@ Implement a Player class
 each player in our game can have up to 3 pokemons, 
 
 
+
+Ex3 
+Combat : add ui for two players , eah player have his round , in each round the player choose  pokemon and attack 
