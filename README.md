@@ -17,4 +17,12 @@ Each Pokemon have:
 
 Ex1
 implement class for every kind
+implement the attack method for each.
+
+Ex2
+pokemon winner
+Not only pokemon is needed , but also players.
+Implement a Player class
+each player in our game can have up to 3 pokemons, 
+
 
