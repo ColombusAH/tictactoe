@@ -5,6 +5,11 @@ export abstract class Pokemon {
         return this._live;
     }
 
+    public set live(value: number) {
+        value = value > -1 ? value : 0;
+        this._live = value;
+    }
+
     private _attack: number;
 
     public get attack(): number {
