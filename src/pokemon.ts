@@ -1,4 +1,18 @@
+import { WaterPokemon } from "./water-pokemon";
+
 export abstract class Pokemon {
+
+
+    //1 static func for hirerachy
+    //2 attack 
+
+    static getDamage(a: Pokemon, b: Pokemon): number {
+        let factor = 1;
+
+
+
+        return factor * a._attack;
+    }
     private _live: number;
 
     public get live(): number {
